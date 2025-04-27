@@ -38,6 +38,13 @@
 - Built adaptive path-planning algorithm to navigate toward a target while dynamically avoiding obstacles, using collision prediction and local replanning heuristics.
 - Integrated uncertainty handling in both measurement updates and motion predictions to maintain model robustness under sensor and actuation noise. Optimized movement commands to respect system constraints on steering and travel distance for extraction in a limited time horizon.
 
+### High-Performance 16-Bit Carry-Select Adder Design in 45nm GPDK | _Cadence Virtuoso, RTL, Verilog, Python_
+[Project Link](https://www.linkedin.com/in/brandon-vo-6b5a45208/details/projects/1744168572274/single-media-viewer/?profileId=ACoAADTV4akBlqsUOkiB62vuWPfBz04KeL4L6vU)
+- Designed, implemented, and optimized a DRC/LVS clean 16-bit Carry-Select Adder (CSA) in Cadence Virtuoso using the GPDK 45nm CMOS process technology.
+- Developed custom standard cells (inverter, gates, MUX, Adder) through schematic capture and layout design.
+- Architected the CSA by partitioning into 4-bit ripple-carry and carry-select subblocks to minimize critical path delay.
+- Performed post-layout simulation with parasitic extraction to validate functional correctness, worst-case propagation delay (1.30 ns), energy consumption (506.1 fJ), and chip area (1943.45 μm²). Achieved performance targets below the 2 ns delay and 850 fJ energy thresholds.
+- Demonstrated proficiency in full custom VLSI design flow, including schematic-driven layout, timing analysis, parasitic-aware simulation, and performance characterization.
 
 
   
